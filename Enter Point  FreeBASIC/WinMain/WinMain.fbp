@@ -1,0 +1,34 @@
+[Project]
+Version=3
+Description=WinMain
+Api=fb (FreeBASIC),win (Windows)
+Grouping=1
+AddMainFiles=1
+ResExport=
+AddModuleFiles=false
+CompileIfNewer=false
+IncVersion=false
+RunCmd=false
+FBCType=1
+[Make]
+Module=Module Build,fbc -c
+Recompile=2
+Current=2
+1=Windows Console,fbc -s console
+2=Windows GUI,fbc -s gui
+Output=
+Run=
+Delete=
+[TabOrder]
+TabOrder=1,2,3
+[File]
+1=WinMain.bas
+2=WinMain.rc
+3=WinMain.bi
+[FileInfo]
+1=0,45,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+2=0,0,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+3=0,17,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+[BreakPoint]
+1=
+3=

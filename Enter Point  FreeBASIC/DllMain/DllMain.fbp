@@ -1,0 +1,28 @@
+[Project]
+Version=3
+Description=DllMain
+Api=fb (FreeBASIC),win (Windows)
+Grouping=1
+AddMainFiles=1
+AddModuleFiles=false
+ResExport=
+CompileIfNewer=false
+IncVersion=false
+RunCmd=false
+FBCType=1
+[Make]
+Module=Module Build,fbc -c
+Recompile=2
+Current=1
+1=Windows dll,fbc -s gui -dll -export
+Output=..\DllMain\test\test.dll
+Run=
+Delete=
+[TabOrder]
+TabOrder=1
+[File]
+1=DllMain.bas
+[FileInfo]
+1=0,65,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+[BreakPoint]
+1=

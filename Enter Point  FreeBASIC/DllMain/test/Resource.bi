@@ -1,0 +1,1 @@
+#define IDD_DIALOG              1000#define IDC_BTN1                1001#define IDC_BTN2                1002#define IDR_MENU                10000#define IDM_FILE_EXIT           10001#define IDM_HELP_ABOUT          10101
