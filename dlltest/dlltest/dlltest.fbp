@@ -1,0 +1,28 @@
+[Project]
+Version=3
+Description=dlltest
+Api=fb (FreeBASIC),win (Windows)
+Grouping=1
+AddMainFiles=1
+AddModuleFiles=true
+ResExport=
+CompileIfNewer=false
+IncVersion=false
+RunCmd=false
+FBCType=1
+[Make]
+Current=1
+1=Windows dll,fbc -s gui -dll -export
+Recompile=2
+Module=Module Build,fbc -c
+Output=
+Run=
+Delete=
+[TabOrder]
+TabOrder=1
+[File]
+1=dlltest.bas
+[BreakPoint]
+1=
+[FileInfo]
+1=0,5,-1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
